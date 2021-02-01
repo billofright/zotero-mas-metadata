@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:em="http://www.mozilla.org/2004/em-rdf#">
   <Description about="urn:mozilla:install-manifest">
-    <em:name>Zotero MAS MetaData</em:name>
-    <em:description>A Zotero plugin that adds Microsoft Academic Search metadata.</em:description> 
+    <em:name>Zotero Evernote</em:name>
+    <em:description>bill yuan plugin asdfasdf</em:description> 
     <em:id>bill.yuan27@gmail.com</em:id>
-    <em:creator>Tobias Holtdirk</em:creator>
+    <em:creator>Bill Yuan</em:creator>
     <em:version>0.1.5</em:version>
-    <em:homepageURL>https://github.com/TobiHol/zotero-mas-metadata</em:homepageURL>
+    <em:homepageURL>https://bike.yimcentral.net</em:homepageURL>
     <em:updateURL>https://raw.githubusercontent.com/TobiHol/zotero-mas-metadata/master/update.rdf</em:updateURL>
     <em:type>2</em:type>
     <em:targetApplication>

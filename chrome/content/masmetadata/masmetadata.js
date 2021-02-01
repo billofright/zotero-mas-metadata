@@ -9,6 +9,8 @@ Zotero.MASMetaData = new function () {
     // Startup - initialize plugin
 
     this.init = function () {
+        window.alert('poggers');
+        
         this.resetState('initial');
 
         // Register callbacks in Zotero as item observers
@@ -20,7 +22,23 @@ Zotero.MASMetaData = new function () {
             _this.notifierID = null;
         }, false);
 
+
     };
+
+    this.insertData = function(){
+		var data = {
+			title: "Zotero",
+			company: "Center for History and New Media",
+			creators: [
+				['Dan', 'Stillman', 'programmer'],
+				['Simon', 'Kornblith', 'programmer']
+			],
+			version: '1.0.1',
+			place: 'Fairfax, VA',
+			url: 'http://www.zotero.org'
+		};
+		Zotero.Items.add('computerProgram', data); // returns a Zotero.Item instance
+	},
 
     this.notifierCallback = {
         notify: function (event, type, ids, extraData) {

@@ -7,5 +7,5 @@ if (!Zotero.MASMetaData) {
 };
 
 window.addEventListener('load', function (e) {
-    Zotero.MASMetaData.init();
+	Zotero.MASMetaData.init();
 }, false);

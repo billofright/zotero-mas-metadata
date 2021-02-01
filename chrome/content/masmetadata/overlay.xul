@@ -18,12 +18,16 @@
             <menupopup id="zotero-itemmenu-masmetadata-menupopup">
                 <menuitem
                     id="zotero-itemmenu-masmetadata-update"
-                    label="&masmetadata-menuitem-label-update;"
+                    label="fofofo"
                     oncommand="Zotero.MASMetaData.updateSelectedItems('update');"/>
                 <menuitem
                     id="zotero-itemmenu-masmetadata-remove"
                     label="&masmetadata-menuitem-label-remove;"
                     oncommand="Zotero.MASMetaData.updateSelectedItems('remove');"/>
+                <menuitem
+                    id="zotero-insert-data"
+                    label="&insert-data;"
+                    oncommand="Zotero.MASMetaData.insertData();"/>   
             </menupopup>
         </menu>
     </popup>
