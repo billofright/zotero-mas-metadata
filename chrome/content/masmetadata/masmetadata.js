@@ -8,9 +8,7 @@ Zotero.MASMetaData = new function () {
 
     // Startup - initialize plugin
 
-    this.init = function () {
-        window.alert('poggers');
-        
+    this.init = function () {        
         this.resetState('initial');
 
         // Register callbacks in Zotero as item observers
